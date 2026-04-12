@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000088] (rover_bot) JobQueued: {'identifier': 'rover_bot', 'dependencies': OrderedDict()}
+[0.000103] (rover_bot) JobStarted: {'identifier': 'rover_bot'}
+[0.006264] (rover_bot) JobProgress: {'identifier': 'rover_bot', 'progress': 'cmake'}
+[0.006370] (rover_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/aahir/Group_01/src/rover_bot', '-DCMAKE_INSTALL_PREFIX=/home/aahir/Group_01/install/rover_bot'], 'cwd': '/home/aahir/Group_01/build/rover_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aahir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aahir'), ('OLDPWD', '/home/aahir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aahir/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aahir'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aahir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aahir:@/tmp/.ICE-unix/2171,unix/aahir:/tmp/.ICE-unix/2171'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5daab897_e3fd_4e53_a636_d9359b61e6d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aahir/Group_01/build/rover_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099650] (-) TimerEvent: {}
+[0.112779] (rover_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199766] (-) TimerEvent: {}
+[0.203312] (rover_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.214417] (rover_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299868] (-) TimerEvent: {}
+[0.300252] (rover_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.309002] (rover_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.309677] (rover_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.311397] (rover_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.315697] (rover_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399172] (rover_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.399933] (-) TimerEvent: {}
+[0.407741] (rover_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.407958] (rover_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.408028] (rover_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.415985] (rover_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500621] (-) TimerEvent: {}
+[0.560085] (rover_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600752] (-) TimerEvent: {}
+[0.642233] (rover_bot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.679954] (rover_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.683516] (rover_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.690059] (rover_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.700218] (rover_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700818] (-) TimerEvent: {}
+[0.710991] (rover_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.740885] (rover_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.742887] (rover_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801387] (-) TimerEvent: {}
+[0.812550] (rover_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.833374] (rover_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.866290] (rover_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.877146] (rover_bot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901571] (-) TimerEvent: {}
+[0.952065] (rover_bot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.952308] (rover_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001731] (-) TimerEvent: {}
+[1.033376] (rover_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.035290] (rover_bot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.088444] (rover_bot) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.097929] (rover_bot) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.098730] (rover_bot) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.101808] (-) TimerEvent: {}
+[1.111637] (rover_bot) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.202684] (-) TimerEvent: {}
+[1.223163] (rover_bot) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.278301] (rover_bot) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.302747] (-) TimerEvent: {}
+[1.314049] (rover_bot) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.332428] (rover_bot) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.349062] (rover_bot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.353654] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.359838] (rover_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.361868] (rover_bot) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.361928] (rover_bot) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.365012] (rover_bot) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.381079] (rover_bot) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.402869] (-) TimerEvent: {}
+[1.424336] (rover_bot) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.432894] (rover_bot) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.446676] (rover_bot) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.450922] (rover_bot) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.451062] (rover_bot) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.453851] (rover_bot) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.454011] (rover_bot) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.454796] (rover_bot) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.454932] (rover_bot) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.456788] (rover_bot) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.456943] (rover_bot) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.458756] (rover_bot) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.458906] (rover_bot) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.459768] (rover_bot) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.498254] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.501008] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.501188] (rover_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.502921] (-) TimerEvent: {}
+[1.512120] (rover_bot) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.516954] (rover_bot) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.520464] (rover_bot) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.531899] (rover_bot) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.564294] (rover_bot) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.571677] (rover_bot) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.587633] (rover_bot) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.603039] (-) TimerEvent: {}
+[1.625675] (rover_bot) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.629608] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.630604] (rover_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.649199] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.655358] (rover_bot) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.670427] (rover_bot) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.703166] (-) TimerEvent: {}
+[1.718983] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.721551] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.721907] (rover_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.722744] (rover_bot) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.723382] (rover_bot) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.725257] (rover_bot) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.737255] (rover_bot) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.738071] (rover_bot) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.739412] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.739651] (rover_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.740012] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.742004] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.742183] (rover_bot) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.803362] (-) TimerEvent: {}
+[1.806780] (rover_bot) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.819187] (rover_bot) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.833449] (rover_bot) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.876109] (rover_bot) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.885247] (rover_bot) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.902812] (rover_bot) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.903620] (-) TimerEvent: {}
+[1.938214] (rover_bot) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.938920] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.939472] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.940071] (rover_bot) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.944324] (rover_bot) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.944751] (rover_bot) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.958074] (rover_bot) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.999531] (rover_bot) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.003794] (-) TimerEvent: {}
+[2.032665] (rover_bot) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)\n'}
+[2.033858] (rover_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.102464] (rover_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.103147] (rover_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.103813] (rover_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.103900] (-) TimerEvent: {}
+[2.105112] (rover_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.106448] (rover_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.110102] (rover_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[2.112009] (rover_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/aahir/Group_01/build/rover_bot\n'}
+[2.121271] (rover_bot) CommandEnded: {'returncode': 0}
+[2.121483] (rover_bot) JobProgress: {'identifier': 'rover_bot', 'progress': 'build'}
+[2.121498] (rover_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aahir/Group_01/build/rover_bot', '--', '-j14', '-l14'], 'cwd': '/home/aahir/Group_01/build/rover_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aahir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aahir'), ('OLDPWD', '/home/aahir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aahir/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aahir'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aahir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aahir:@/tmp/.ICE-unix/2171,unix/aahir:/tmp/.ICE-unix/2171'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5daab897_e3fd_4e53_a636_d9359b61e6d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aahir/Group_01/build/rover_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.165284] (rover_bot) CommandEnded: {'returncode': 0}
+[2.166030] (rover_bot) JobProgress: {'identifier': 'rover_bot', 'progress': 'install'}
+[2.171258] (rover_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aahir/Group_01/build/rover_bot'], 'cwd': '/home/aahir/Group_01/build/rover_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aahir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aahir'), ('OLDPWD', '/home/aahir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aahir/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aahir'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aahir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aahir:@/tmp/.ICE-unix/2171,unix/aahir:/tmp/.ICE-unix/2171'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5daab897_e3fd_4e53_a636_d9359b61e6d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.178'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aahir/Group_01/build/rover_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.175633] (rover_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.175710] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/launch\n'}
+[2.175742] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/urdf\n'}
+[2.175770] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/urdf/rover.xacro\n'}
+[2.176848] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/urdf/launch\n'}
+[2.176915] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/urdf/launch/gazebo.launch.py\n'}
+[2.177653] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/worlds\n'}
+[2.177720] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/rviz\n'}
+[2.177753] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/ament_index/resource_index/package_run_dependencies/rover_bot\n'}
+[2.177783] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/ament_index/resource_index/parent_prefix_path/rover_bot\n'}
+[2.177811] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/environment/ament_prefix_path.sh\n'}
+[2.177839] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/environment/ament_prefix_path.dsv\n'}
+[2.177866] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/environment/path.sh\n'}
+[2.177894] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/environment/path.dsv\n'}
+[2.177921] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/local_setup.bash\n'}
+[2.177947] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/local_setup.sh\n'}
+[2.177975] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/local_setup.zsh\n'}
+[2.178001] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/local_setup.dsv\n'}
+[2.178028] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/package.dsv\n'}
+[2.178257] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/ament_index/resource_index/packages/rover_bot\n'}
+[2.178311] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/cmake/rover_botConfig.cmake\n'}
+[2.178353] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/cmake/rover_botConfig-version.cmake\n'}
+[2.178380] (rover_bot) StdoutLine: {'line': b'-- Installing: /home/aahir/Group_01/install/rover_bot/share/rover_bot/package.xml\n'}
+[2.180058] (rover_bot) CommandEnded: {'returncode': 0}
+[2.201625] (rover_bot) JobEnded: {'identifier': 'rover_bot', 'rc': 0}
+[2.201877] (-) EventReactorShutdown: {}

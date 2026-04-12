@@ -1,0 +1,6 @@
+Invoking command in '/home/aahir/Group_01/build/rover_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aahir/Group_01/src/rover_bot -DCMAKE_INSTALL_PREFIX=/home/aahir/Group_01/install/rover_bot
+Invoked command in '/home/aahir/Group_01/build/rover_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aahir/Group_01/src/rover_bot -DCMAKE_INSTALL_PREFIX=/home/aahir/Group_01/install/rover_bot
+Invoking command in '/home/aahir/Group_01/build/rover_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aahir/Group_01/build/rover_bot -- -j14 -l14
+Invoked command in '/home/aahir/Group_01/build/rover_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aahir/Group_01/build/rover_bot -- -j14 -l14
+Invoking command in '/home/aahir/Group_01/build/rover_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aahir/Group_01/build/rover_bot
+Invoked command in '/home/aahir/Group_01/build/rover_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aahir/Group_01/build/rover_bot
