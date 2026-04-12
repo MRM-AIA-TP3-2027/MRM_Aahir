@@ -1,0 +1,4 @@
+---
+string[] item_names
+int32[] quantities
+float32 total_income
